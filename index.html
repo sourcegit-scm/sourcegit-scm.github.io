@@ -2,46 +2,12 @@
 <html>
     <head>
         <title>SourceGit - Opensource & Free Git Gui Client</title>
+
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/image-compare-viewer.min.css" rel="stylesheet">
 
-        <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
-
-        <style>
-            .compare {
-                display: grid;
-                overflow: hidden;
-                border-radius: 6px;
-                box-shadow: 0 0 8px 0 black;
-            }
-
-            .compare > section {
-                display: grid;
-                grid-area: 1 / 1;
-                width: 100%;
-                height: 100%;
-            }
-
-            .compare > section > img {
-                max-width: 100%;
-            }
-
-            .compare > section > input[type="range"] {
-                z-index: 1;
-                width: 100%;
-                height: 100%;
-                appearance: none;
-                background: transparent;
-                cursor: pointer;
-            }
-
-            .compare > section > input[type="range"]::-webkit-slider-thumb {
-                appearance: none;
-                inline-size: 4px;
-                block-size: 100px;
-                background-color: rgb(0, 149, 255);
-            }
-        </style>
+        <script src="js/image-compare-viewer.min.js"></script>
     </head>
 
     <body style="background: #222;">
@@ -85,16 +51,9 @@
                 <!-- Screenshots -->
                 <div class="row justify-content-md-center mt-4">
                     <div class="col-md-10">
-                        <div class="compare">
-                            <section>
-                                <img src="images/theme_light.png"/>
-                            </section>
-                            <section class="dark" style="mask-image: linear-gradient(to right, transparent 50%, white 50%);">
-                                <img src="images/theme_dark.png"/>
-                            </section>
-                            <section>
-                                <input type="range" id="range" min="0" max="100" step="0.1"/>
-                            </section>                            
+                        <div id="image-compare" style="border-radius: 6px; box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);">
+                            <img src="images/theme_light.png"/>
+                            <img src="images/theme_dark.png"/>                           
                         </div>
                     </div>
                 </div>
@@ -103,9 +62,19 @@
     </body>
 
     <script type="text/javascript">
-        $('#range').on('input', e => {
-            var val = e.target.value;
-            $('.compare .dark').attr('style', `mask-image: linear-gradient(to right, transparent ${val}%, white ${val}%);`);
-        });
+        const element = document.getElementById('image-compare');
+        new ImageCompare(element, {
+            controlColor: '#73c781',
+            controlShadow: false,
+            addCircle: true,
+            addCircleBlur: true,
+            
+            showLabels: true,
+            labelOptions: {
+                before: 'Light',
+                after: 'Dark',
+                onHover: false,
+            }
+        }).mount();
     </script>
 </html>
