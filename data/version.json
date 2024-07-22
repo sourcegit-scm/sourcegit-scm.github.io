@@ -1,5 +1,5 @@
 {
-    "tag_name": "v8.21",
-    "name": "Release 8.21",
-    "body": "## What's Changed\r\n\r\n* Rewrite the implementation of theme overrides.\r\n* Built-in SSH askpass client.\r\n* Built-in `core.editor` support.\r\n* Commit searching now will running background.\r\n* Refresh working copy changes immediately after discard complete.\r\n* Supports to resize width of columns (`Graph & Subject` and `Author`) in histories view.\r\n* Fix the issue that `Ctrl+V` on subject text box will trigger input text twice.\r\n* Fix the issue that sometimes commits not marked as merged.\r\n* Replace `TreeDataGrid` with custom tree view and remove this dependency.\r\n* Enhanced commit search.\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v8.20...v8.21"
+    "tag_name": "v8.22",
+    "name": "Release 8.22",
+    "body": "## What's Changed\r\n\r\n* Several UX/Theme changes.\r\n* Add a toggle button to change the way of commit time displays in histories.\r\n* Fix the issue that current branch node is collapsed by default.\r\n* Git gc will enable the `--prune` parameter.\r\n* Supports stage/unstage/discard hunk in a file.\r\n* Searching commits by message is case-insensitive.\r\n* Searching commits by message or changed file now includes all branches.\r\n* A new key `OpacityForNotMergedCommits` has been added to theme overrides schema to customize the opacity of commits that not belongs (haven't been merged) to the current branch in histories view.\r\n* Add a dot that indicates the state of commit that current branch ahead/behind its upstream in histories view.\r\n* Allow `#` character in branch name.\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v8.21...v8.22"
 }
