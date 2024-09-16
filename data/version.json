@@ -1,5 +1,5 @@
 {
-    "tag_name": "v8.29",
-    "name": "Release 8.29",
-    "body": "## What's Changed\r\n\r\n* Save `preference.json` when its property changed immediately.\r\n* Fix the issue that the width of column `COMMIT TIME` is too small for build-in fonts.\r\n* Add `Move to Another Group` context menu item to help users moving repository nodes.\r\n* Change the default method to search commits to `Message`\r\n* Supports search submodules\r\n* Enhanced French translation\r\n* Add `Avalonia.Fonts.Inter` package to avoid crashing on some Linux distro when failed get `$Default` font family.\r\n* Several other UI/UX changes\r\n\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v8.28...v8.29"
+    "tag_name": "v8.30",
+    "name": "Release 8.30",
+    "body": "## What's Changed\r\n\r\n* Highlight lines those come from the same change with current line in `Blame` view.\r\n* Workspace support.\r\n* [MacOS] rewrite `Open Terminal` feature.\r\n* Supports using OpenAI to generate commit message.\r\n* Do not modify the global/local git configuration if value equals with git default.\r\n* Auto focus the **NEXT** change after stage/unstage selected changes.\r\n* Allow to disable native AOT deployment\r\n* Leave the remote branch to empty when current local branch tracks no branch in selected remote while pulling changes.\r\n* Rewrite Shell/Terminal integration. You may need to re-select the shell/terminal used by this project.\r\n* Image file preview now shows the pixel size and file size.\r\n* Remember the height and width of commit list and detail panel in histories page.\r\n* Several other UI/UX changes.\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v8.29...v8.30"
 }
