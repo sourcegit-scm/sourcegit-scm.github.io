@@ -1,5 +1,5 @@
 {
-    "tag_name": "v2025.11",
-    "name": "2025.11",
-    "body": "## What's Changed\r\n* Upgrade `AvaloniaUI` to `11.2.6`.\r\n* Upgrade `OpenAI` and `Azure.AI.OpenAI` to `2.2.0-beta.4`.\r\n* Improve `SourceGit.ViewModels.Launcher.OpenRepositoryInTab` performance.\r\n* Do not create crash log for unobserved task exception.\r\n* Add `Azure DevOps` workitems issue tracker.\r\n* **Linux:** Show installed size in `DEB` package.\r\n* Improve font family name handling by collapsing multiple spaces.\r\n* Enable `--index` option for `git stash pop` command which will try to reinstate not only the working tree's change, but also the index's ones when choose `Stash & Reapply`.\r\n* Remove `Copy File Name` and add `Copy Full Path` for selected file or change.\r\n* Improve getting the email's hash code.\r\n* Several other UI/UX changes.\r\n\r\n## New Contributors\r\n* @IacopoSb made their first contribution in https://github.com/sourcegit-scm/sourcegit/pull/1128\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v2025.10...v2025.11"
+    "tag_name": "v2025.12",
+    "name": "2025.12",
+    "body": "## What's Changed\r\n* Avoid unhandled exceptions in auto fetch timer\r\n* Add Japanese localization.\r\n* Fix the issue that renamed files are missing in commit and stash changes.\r\n* Add comma between date and time.\r\n* Support filter staged local changes and show dialog if staged files are displayed partially while committing.\r\n* Several other UI/UX changes.\r\n\r\n## New Contributors\r\n* @SousiOmine made their first contribution in https://github.com/sourcegit-scm/sourcegit/pull/1157\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v2025.11...v2025.12"
 }
