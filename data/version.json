@@ -1,5 +1,5 @@
 {
-    "tag_name": "v2025.12",
-    "name": "2025.12",
-    "body": "## What's Changed\r\n* Avoid unhandled exceptions in auto fetch timer\r\n* Add Japanese localization.\r\n* Fix the issue that renamed files are missing in commit and stash changes.\r\n* Add comma between date and time.\r\n* Support filter staged local changes and show dialog if staged files are displayed partially while committing.\r\n* Several other UI/UX changes.\r\n\r\n## New Contributors\r\n* @SousiOmine made their first contribution in https://github.com/sourcegit-scm/sourcegit/pull/1157\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v2025.11...v2025.12"
+    "tag_name": "v2025.13",
+    "name": "2025.13",
+    "body": "## What's Changed\r\n\r\n* Allow using `+` character in branch names.\r\n* Add `Preferred Merge Mode` in repository configuration.\r\n* Auto stash and re-apply local changes before squashing.\r\n* Support to use `Plastic SCM` as external diff/merge tool.\r\n* Rewrite the `Statistics` window.\r\n* Disable `COMMIT` & `COMMIT & PUSH` buttons when commit message is empty.\r\n* Add `STAGE ALL & COMMIT` button into dialog to confirm committing without staged files.\r\n* Add a button to `UNSTAGED` toolbar to run external mergetool on all conflicts.\r\n* Add தமிழ் (Tamil) translation.\r\n* Rewrite histories filter to support ref name that contains non-ascii characters.\r\n* Upgrade `AvaloniaUI` to `11.2.7`.\r\n* Several other UI/UX changes.\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v2025.12...v2025.13"
 }
