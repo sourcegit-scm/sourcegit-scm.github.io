@@ -1,5 +1,5 @@
 {
-  "tag_name": "v2025.28",
-  "name": "2025.28",
-  "body": "## What's Changed\r\n* Supports add `Gerrit Change-ID` issuetracker rules.\r\n* Fix the issue that getting askpass for every action even when it is not necessary.\r\n* Do not need to use `Shift+Enter` to input newline in popups.\r\n* Rewrite issuetracker integration.\r\n* Allow to drag & drop multiple folders on repository-tree.\r\n* Add a button to commit list in `HISTORY` page to scroll back to the top.\r\n* Auto-track remote branch when creating branch based on this remote branch and no other local branch tracking it.\r\n* Fix the issue that if showing tooltip of a local branch that does not have upstream may crash this app.\r\n* Fix the issue that user can not stage conflicted files after resolve the conflict manually.\r\n* Several other UI/UX changes.\r\n\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v2025.27...v2025.28"
+  "tag_name": "v2025.29",
+  "name": "2025.29",
+  "body": "## What's Changed\r\n\r\n* Use `<revision_sha>^` instead of `<revsion_parent_sha>` as base revision when getting changes of selected commit\r\n* Use `pwsh` instead of `bash` to make Windows packages\r\n* Trait all hosts those contains `gitlab.` as `GitLab` service.\r\n* Several other UI/UX changes.\r\n\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v2025.28...v2025.29"
 }
