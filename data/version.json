@@ -1,5 +1,5 @@
 {
-  "tag_name": "v2025.29",
-  "name": "2025.29",
-  "body": "## What's Changed\r\n\r\n* Use `<revision_sha>^` instead of `<revsion_parent_sha>` as base revision when getting changes of selected commit\r\n* Use `pwsh` instead of `bash` to make Windows packages\r\n* Trait all hosts those contains `gitlab.` as `GitLab` service.\r\n* Several other UI/UX changes.\r\n\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v2025.28...v2025.29"
+  "tag_name": "v2025.30",
+  "name": "2025.30",
+  "body": "## What's Changed\r\n\r\n* Double-clicking tag will try to checkout the commit it refers\r\n* Disable `--all` option while fetching by default\r\n* Exclude main worktree of submodules\r\n* Always show the `Open in External Tools` button and hide the `Bisect` for bare repository\r\n* Remember the last check state of `Fetch all remotes` and respect it while auto-fetching\r\n* Re-design tooltip for tag\r\n* Revert the changes to auto run ```eval `ssh-agent -s` ``` before start SourceGit\r\n* Fix the issue that when tag's `%(creatordate:unix)` returns empty string this app will crash\r\n* Allows the `.` character in repository's owner/group part (SSH URL format)\r\n* Several other UI/UX changes.\r\n\r\n\r\n**Full Changelog**: https://github.com/sourcegit-scm/sourcegit/compare/v2025.29...v2025.30"
 }
